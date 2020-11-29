@@ -1,47 +1,48 @@
 {
-  "name": "@bothrs/expo-mixpanel-analytics",
-  "version": "1.1.1",
-  "description": "Mixpanel integration for use with React Native apps built on Expo 39.",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist src/index.js && tsc",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bothrs/expo-mixpanel-analytics.git"
-  },
-  "keywords": [
-    "react",
-    "native",
-    "expo",
-    "mixpanel",
-    "analytics"
-  ],
-  "files": [
-    "dist/src"
-  ],
-  "author": "Ben Awad",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codekadiya/expo-mixpanel-analytics/issues"
-  },
-  "dependencies": {
-    "@react-native-community/async-storage": "1",
-    "buffer": "6"
-  },
-  "devDependencies": {
-    "@types/react-native": "^0.62.18",
-    "expo-constants": "9",
-    "rimraf": "3",
-    "tslib": "^2.0.3",
-    "typescript": "3.9"
-  },
-  "peerDependencies": {
-    "expo-constants": "9",
-    "react": "16",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz"
+	"name": "@hootboardincubator/expo-mixpanel-analytics",
+	"version": "1.1.1",
+	"description": "Mixpanel integration for use with React Native apps built on Expo 39.",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
+	"scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1",
+	  "build": "rimraf dist src/index.js && tsc",
+	  "prepublishOnly": "npm run build"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/hootboardincubator/expo-mixpanel-analytics.git"
+	},
+	"keywords": [
+	  "react",
+	  "native",
+	  "expo",
+	  "mixpanel",
+	  "analytics"
+	],
+	"files": [
+	  "dist/src"
+	],
+	"author": "snair@hootboard.com",
+	"license": "MIT",
+	"bugs": {
+	  "url": "https://github.com/codekadiya/expo-mixpanel-analytics/issues"
+	},
+	"dependencies": {
+	  "@react-native-community/async-storage": "1",
+	  "buffer": "6"
+	},
+	"devDependencies": {
+	  "@types/react-native": "^0.62.18",
+	  "expo-constants": "9",
+	  "rimraf": "3",
+	  "tslib": "^2.0.3",
+	  "typescript": "3.9"
+	},
+	"peerDependencies": {
+	  "expo-constants": "9",
+	  "react": "16",
+	  "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz"
+	}
   }
-}
+  
